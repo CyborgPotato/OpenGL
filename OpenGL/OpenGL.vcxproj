@@ -120,6 +120,8 @@
   <ItemGroup>
     <ClInclude Include="main.h" />
     <ClInclude Include="UDGL_M.h" />
+    <ClInclude Include="UDGL_M_MAT.h" />
+    <ClInclude Include="UDGL_M_VECS.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

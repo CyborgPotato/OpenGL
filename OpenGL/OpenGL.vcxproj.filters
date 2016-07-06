@@ -26,5 +26,11 @@
     <ClInclude Include="UDGL_M.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="UDGL_M_VECS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UDGL_M_MAT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

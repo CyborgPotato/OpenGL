@@ -10,7 +10,7 @@ int main(void)
 	glfwMakeContextCurrent(window);
 	libInit(window);
 
-	vec3f point[3] = { cvec3f(-1.f,-1.f,0.f),cvec3f(0,1.f,0.0f),cvec3f(1.f,-1.f,0.0f) };
+	vec3f point[3] = { {-1.f,-1.f,0.f}, {0,1.f,0.0f}, {1.f,-1.f,0.0f} };
 
 	GLuint VBO;
 	glGenBuffers(1,&VBO);
